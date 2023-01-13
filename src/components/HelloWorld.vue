@@ -1,33 +1,33 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <!-- <h1>{{ msg }}</h1>
     <p>
       Hello students
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
         >vue-cli documentation</a
       >
-    </p>
+    </p> -->
 
     <!-- Double mustache are used to be parse in javascript in vue -->
     <!-- Single mustache are used to be parse in html in vue -->
 
-    {{ greeting }}
+    <!-- {{ greeting }} -->
 
     
     <!-- v-model are used for two way data binding -->
     <!-- <input v-model="greeting" /> -->
-    <input @keyup.enter="greet" v-model="greeting" />
-    <hr />
+    <!-- <input @keyup.enter="greet" v-model="greeting" />
+    <hr /> -->
 
     <!-- Like an if statement in js . If the div is truthy it will be rendered on the page but if it is falsy it will not be rendered on the page -->
-    <div v-if="isVisible" class="box"></div>
+    <!-- <div v-if="isVisible" class="box"></div> -->
 
     <!-- v-show is used to show and hide elements on the page -->
     <!-- it is almost the same as v-if but the only the difference is that the when the div is false the style is rendered as display:none;
     That means that the div is in the dom  but it is just not visible. -->
     <!-- It is used in  most cases when you want to toggle something on or off like harmburger and close icons. -->
 
-    <div v-if="isVisible" class="box"></div>
+    <!-- <div v-if="isVisible" class="box"></div> -->
     <!-- <div v-else-if="isVisible2" class="box-two"></div>
     <div v-else class="box-three"></div> -->
 
@@ -42,8 +42,8 @@
 
 
     <!-- <button v-on:click="isVisible = !isVisible">Toggle Button</button> -->
-    <button @click="toggleBox" >Toggle Box</button>
-    <button v-on:click="isVisible = true">Show box</button>
+    <!-- <button @click="toggleBox" >Toggle Box</button>
+    <button v-on:click="isVisible = true">Show box</button> -->
   </div>
 </template>
 
@@ -91,18 +91,18 @@ export default {
   // @click.space is used to listen for click events when the space key is pressed
 
 
-  methods: {
-    // incrementCount() {
-    //   this.count++;
-    // },
-    toggleBox(){
-      this.isVisible= !this.isVisible
-    },
-    greet(){
-      console.log(this.greeting);
-    }
+  // methods: {
+  //   // incrementCount() {
+  //   //   this.count++;
+  //   // },
+  //   toggleBox(){
+  //     this.isVisible= !this.isVisible
+  //   },
+  //   greet(){
+  //     console.log(this.greeting);
+  //   }
 
-  },
+  // },
 };
 </script>
 
