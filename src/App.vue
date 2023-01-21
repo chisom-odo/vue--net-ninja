@@ -5,9 +5,13 @@
   <NameOfMySchool />
   <LoginForm />
   <CustomInput />
+  <Parent />
+  <Album />
 </template>
 
 <script>
+import Parent from './components/Parent.vue'
+import Album from './components/Album.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import AltschoolStudent from './components/AltschoolStudent.vue';
 import NameOfMySchool from './components/NameOfMySchool.vue'
@@ -22,6 +26,8 @@ export default {
     NameOfMySchool,
     LoginForm,
     CustomInput,
+    Parent,
+    Album
   }
 }
 </script>
