@@ -23,6 +23,8 @@
     <!-- <div v-if="isVisible" class="box"></div> -->
 
     <!-- v-show is used to show and hide elements on the page -->
+
+    
     <!-- it is almost the same as v-if but the only the difference is that the when the div is false the style is rendered as display:none;
     That means that the div is in the dom  but it is just not visible. -->
     <!-- It is used in  most cases when you want to toggle something on or off like harmburger and close icons. -->
