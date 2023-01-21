@@ -6,7 +6,8 @@
 </template>
 
 
-<!-- if you want to make the variables at the child component to be in sync with the parent variable -->
+<!-- if you want to make the variables at the child component to be in sync with the parent variable  -->
+
 <script>
 export default{
     name:'CustomInput',
