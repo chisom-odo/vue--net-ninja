@@ -6,9 +6,11 @@
     <button>Login</button>
   </form>
 </template>
+
 <!-- if you want to parse a  variable from parent to child components follow this steps:
 -- Go to the parent components and insert the variables in the data object
 -- Use v-bind attribute to bind a js as a variable attribute on the parent component -->
+
 
 
 <script>
